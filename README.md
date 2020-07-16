@@ -10,12 +10,13 @@ git clone https://github.com/saira-h/whalescan
 
 pip install -r requirements.txt
 
-./main.py
+python main.py
 ```
 
 ## Overview
 
-Whalescan performs several benchmark checks, as well as checking for CVEs.
+Whalescan performs several benchmark checks, as well as checking for CVEs. This tool can be used as part of a windows
+container review on local copies of the containers, and on the host itself to enhance security
 
 * Container checks 
 
